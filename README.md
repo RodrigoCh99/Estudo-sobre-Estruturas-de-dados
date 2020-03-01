@@ -1,0 +1,2 @@
+# Estudo-sobre-Estruturas-de-dados
+Estudo do 5º semestre do curso de ciência da computação no UniCEUB, apesar de na matéria corrente aprendermos os  conteúdos de E.S em C++ como desafio pessoal implementarei as estruturas em javascript seguindo o livro "Estruturas de dados e algoritmos em Javascript" e futuramente o livro "Estruturas de dados e seus Algoritmos" também possuirá implementações de seus pseudocódigos  em javascript ou Python.
