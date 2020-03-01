@@ -1,5 +1,5 @@
 // Classe Pilha:
-class Stack {
+export default class Stack {
 
     // Função construtora de Objetos:
     constructor() {
@@ -88,15 +88,17 @@ class Stack {
         // Verificando se a pilha tem itens
         if (this.isEmpty()) {
 
-            // Caso a pilha esteja vazia retorna undefined
+            // Caso a pilha esteja vazia retorna uma string vazia:
             return '';
         }
         
-
+        // variavel recebendo o primeiro valor da pilha:
         let objString = `${this.items[0]}`;
 
+        // percorrendo os elementos da pilha:
         for ( let i = 1; i < this.count; i++ ) {
 
+            // a variavel recebe sempre o seu valor anterior junto com o novo:
             objString = `${ objString }, ${ this.items[i] }`;
 
         }
